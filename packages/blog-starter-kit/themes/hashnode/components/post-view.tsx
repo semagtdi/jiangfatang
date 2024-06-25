@@ -2,7 +2,7 @@ import { useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { twJoin } from 'tailwind-merge';
-import moment from 'dayjs';
+import moment from 'moment';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 

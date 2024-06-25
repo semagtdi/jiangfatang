@@ -1,4 +1,4 @@
-import moment from 'dayjs';
+import moment from 'moment';
 
 export const formatDate = (dateString) => {
     const difference = moment().diff(moment(dateString), 'minute');

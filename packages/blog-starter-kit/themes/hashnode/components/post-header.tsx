@@ -1,4 +1,4 @@
-import moment from 'dayjs';
+import moment from 'moment';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import dynamic from 'next/dynamic';

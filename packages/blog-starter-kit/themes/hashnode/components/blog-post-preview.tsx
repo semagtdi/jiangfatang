@@ -1,4 +1,4 @@
-import moment from 'dayjs';
+import moment from 'moment';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
