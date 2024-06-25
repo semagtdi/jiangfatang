@@ -134,7 +134,7 @@ const Post = ({ publication, post }: PostProps) => {
 			<div className="flex tracking-tight gap-2 text-neutral-600 dark:text-neutral-400">
 				<DateFormatter dateString={post.publishedAt} />
 				{'•'}
-				<span>{post.readTimeInMinutes} min read</span>
+				<span>{post.readTimeInMinutes}分钟</span>
 			</div>
 			{!!coverImageSrc && (
 				<div className="w-full">

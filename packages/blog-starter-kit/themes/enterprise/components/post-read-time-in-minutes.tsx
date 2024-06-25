@@ -7,7 +7,7 @@ export const ReadTimeInMinutes = ({ readTimeInMinutes }: Props) => {
 		<>
 			<p className="flex flex-row items-center">
 				<BookOpenSVG className="mr-2 h-5 w-5 fill-current opacity-75" />
-				<span>{readTimeInMinutes} min read</span>
+				<span>{readTimeInMinutes}分钟</span>
 			</p>
 		</>
 	);

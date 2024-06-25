@@ -165,7 +165,7 @@ export default function Post({ publication, draft }: Props) {
 											{publication.features?.readTime?.isEnabled && (
 											<p className="flex flex-row items-center text-slate-700 dark:text-slate-400">
 												<BookOpenSVG className="mr-2 h-5 w-5 fill-current opacity-75" />
-												<span>{readTime} min read</span>
+												<span>{readTime}分钟</span>
 											</p>
 											)}
 										</div>

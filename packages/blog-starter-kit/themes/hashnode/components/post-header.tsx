@@ -220,16 +220,16 @@ export const PostHeader = ({ post, morePosts }: Props) => {
 							<Link
 								href={absolutePostURL}
 								className="tooltip-handle text-slate-700 dark:text-slate-400"
-								data-title={`${moment(post.publishedAt).format('MMM D, YYYY HH:mm')}`}
+								data-title={`${moment(post.publishedAt).format('YYYY-MM-DD HH:mm')}`}
 							>
-								<span>{moment(post.publishedAt).format('MMM D, YYYY')}</span>
+								<span>{moment(post.publishedAt).format('YYYY-MM-DD')}</span>
 							</Link>
 							{post.publication?.features?.readTime?.isEnabled && (
 								<>
 									<span className="mx-3 block font-bold text-slate-500">&middot;</span>
 									<p className="flex flex-row items-center text-slate-700 dark:text-slate-400">
 										<BookOpenSVG className="mr-2 h-5 w-5 fill-current opacity-75" />
-										<span>{post.readTimeInMinutes} min read</span>
+										<span>{post.readTimeInMinutes}分钟</span>
 									</p>
 								</>
 							)}
