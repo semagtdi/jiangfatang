@@ -106,7 +106,7 @@ function BlogPostPreview(props: {
               </div>
             )}
             <Link href={postURL} aria-label={post.title} className="blog-post-card-time mr-4">
-              {moment(post.publishedAt).format('ll')}
+              {moment(post.publishedAt).format('YYYY-MM-DD')}
             </Link>
             {features.readTime.isEnabled && post.readTimeInMinutes ? (
               <Link href={postURL} aria-label={`${post.title}分钟`} className="mr-4 flex flex-row items-center">
