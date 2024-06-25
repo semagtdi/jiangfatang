@@ -38,7 +38,7 @@ export const Footer = () => {
 								</li>
 								<li>
 									<a href="#" className="hover:underline">
-										Book a demo
+										现在下单！
 									</a>
 								</li>
 								<li>
