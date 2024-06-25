@@ -157,9 +157,9 @@ export default function Post({ publication, draft }: Props) {
 											<span className="mx-3 hidden font-bold text-slate-500 md:block">&middot;</span>
 											<a
 											className="tooltip-handle text-slate-700 dark:text-slate-400"
-											data-title={`${moment(draft.updatedAt).format('MMM D, YYYY HH:mm')}`}
+											data-title={`${moment(draft.updatedAt).format('YYYY-MM-DD HH:mm')}`}
 											>
-											<span>{moment(draft.updatedAt).format('MMM D, YYYY')}</span>
+											<span>{moment(draft.updatedAt).format('YYYY-MM-DD')}</span>
 											</a>
 											<span className="mx-3 block font-bold text-slate-500">&middot;</span>
 											{publication.features?.readTime?.isEnabled && (

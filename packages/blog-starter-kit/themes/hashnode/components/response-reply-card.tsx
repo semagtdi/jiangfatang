@@ -120,14 +120,14 @@ function ResponseReplyCard(props: Props) {
                     <p className="text-sm text-slate-500 dark:text-slate-400">
                       {/* <a
                         href={`#${reply.stamp}`}
-                        title={moment(reply.dateAdded).format('MMM D, YYYY HH:mm')}
+                        title={moment(reply.dateAdded).format('YYYY-MM-DD HH:mm')}
                         className="date-time"
                         aria-label="Reply added at"
                       >
                         {formattedDate}
                       </a> */}
                       <span
-                        title={moment(response.dateAdded).format('MMM D, YYYY HH:mm')}
+                        title={moment(response.dateAdded).format('YYYY-MM-DD HH:mm')}
                         aria-label="Response added at"
                       >
                         {formattedDate}

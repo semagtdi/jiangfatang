@@ -85,14 +85,14 @@ export const PostComments = () => {
 								<p className="text-sm text-slate-500 dark:text-slate-400">
 									{/* <a
                         href={`#${response.stamp}`}
-                        title={moment(response.dateAdded).format('MMM D, YYYY HH:mm')}
+                        title={moment(response.dateAdded).format('YYYY-MM-DD HH:mm')}
                         className="date-time"
                         aria-label="Response added at"
                       >
                         {formattedDate}
                       </a> */}
 									<span
-										title={moment(comment.dateAdded).format('MMM D, YYYY HH:mm')}
+										title={moment(comment.dateAdded).format('YYYY-MM-DD HH:mm')}
 										aria-label="Response added at"
 									>
 										{formatDate(comment.dateAdded)}

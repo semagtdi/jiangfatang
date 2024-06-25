@@ -12,8 +12,8 @@ export const formatDate = (dateString) => {
         return `${diffInHour} hr${diffInHour === 1 ? '' : 's'} ago`;
       }
     } else if (difference > 1440 && difference <= 481801) {
-      return moment(dateString).format('MMM D');
+      return moment(dateString).format('MM-DD');
     } else {
-      return moment(dateString).format('MMM D, YYYY');
+      return moment(dateString).format('YYYY-MM-DD');
     }
   };
