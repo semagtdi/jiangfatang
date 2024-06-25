@@ -9,7 +9,7 @@ export const Subscribe = () => {
 			<Popover.Root>
 				<Popover.Trigger asChild>
 					<Button
-						label="Subscribe"
+						label="订阅邮件"
 						type="outline"
 						icon={<NewsletterPlusSVG className="w-5 h-5 fill-current" />}
 						className="!bg-white dark:!bg-neutral-950"
