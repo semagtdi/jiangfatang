@@ -20,7 +20,7 @@ const variants = {
   leftSidebar: {
     label: 'Open blog links',
     buttonClassName: 'blog-bars-button',
-    tooltipText: 'Blog menu',
+    tooltipText: '网站导航',
     tooltipClassName: 'blog-sidebar-tooltip',
   },
 };

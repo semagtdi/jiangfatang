@@ -92,7 +92,7 @@ function PublicationSidebar(props: Props) {
 
           <CustomScrollArea>
             <div className="py-10 pl-8 pr-4">
-              <h2 className="mb-4 text-sm font-semibold uppercase text-slate-500 dark:text-slate-400">Blog menu</h2>
+              <h2 className="mb-4 text-sm font-semibold uppercase text-slate-500 dark:text-slate-400">网站导航</h2>
               <PublicationSidebarNavLinks
                 isHome={isHome}
                 isBadge={isBadge}
@@ -104,7 +104,7 @@ function PublicationSidebar(props: Props) {
               {userHasSocialLinks ? (
                 <>
                   <h2 className="mb-4 text-sm font-semibold uppercase leading-6 text-slate-500 dark:text-slate-400">
-                    Blog socials
+                    联系我们
                   </h2>
                   <PublicationSocialLinks links={publication.links} isSidebar />
                 </>
