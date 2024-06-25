@@ -54,7 +54,7 @@ export const SubscribeForm = () => {
 						onClick={subscribe}
 						className="bg-primary-600 dark:bg-primary-600 absolute right-3 top-3 rounded-full px-3 py-2 text-white disabled:cursor-not-allowed disabled:opacity-80"
 					>
-						Subscribe
+						订阅
 					</button>
 				</div>
 			)}
