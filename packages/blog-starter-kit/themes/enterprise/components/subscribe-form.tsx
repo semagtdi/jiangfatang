@@ -46,7 +46,7 @@ export const SubscribeForm = () => {
 					<input
 						ref={inputRef}
 						type="email"
-						placeholder="输入您的邮箱地址获取更新通知，例：lawyer@163.com"
+						placeholder="您的邮箱地址……"
 						className="focus:outline-primary-600 dark:focus:outline-primary-500 left-3 top-3 w-full rounded-full p-3 text-base text-black outline-none dark:bg-neutral-950 dark:text-neutral-50"
 					/>
 					<button
